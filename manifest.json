@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Unalert",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.facebook.com/*"],
+      "css": ["unalert.css"]
+    }
+  ]
+}
